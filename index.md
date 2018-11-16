@@ -39,7 +39,7 @@ Output:
 Output:
 ```bash
 ع الزوجية
-```
+``` 
 
 - **Function** [وظيفة.ي](https://github.com/yalang/examples/blob/master/وظيفة.ي)
 ```python
