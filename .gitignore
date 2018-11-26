@@ -90,3 +90,6 @@ _site/
 .jekyll-metadata
 
 # End of https://www.gitignore.io/api/jekyll,intellij+all
+
+# Custom ignore
+run.sh
