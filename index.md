@@ -3,21 +3,18 @@
 
 # ي : لغة البرمجة
 
-> NOTE: We have changed the name of this project to ya or (ي : لغة البرمجة) (yā: The programming language).
-> The last character.
-> Previously it was called qalblang.
-> You may find some footprint for the same in here.
-> Please let me know at quadrixm@gmail.com.
-> Happy to see your suggestions or any feedback.
 
 **_Ya (ي)_** is an open source programming language where you can write python code in arabic language.
 
-It takes the arabic text and convert it into python code and execute it.
+It takes the arabic text and convert it into python code and execute it. 
 Which then can be used anywhere. You can code anything which you can code in python.
 
-> It is recommended to use [IntelliJ IDEA](https://www.jetbrains.com/idea/) as it support RTL text direction and and it also support .ي extension.
+> It is recommended to use [IntelliJ IDEA](https://www.jetbrains.com/idea/) as it support RTL text direction and and it also support .ي extension. 
 
-- **Hello World** [اهلا.ي](https://github.com/yalang/examples/blob/master/اهلا.ي)
+> **You can add [IntelliJ plugin for Ya Language](https://plugins.jetbrains.com/plugin/11321-ya---language).**
+For installing pluging search 'ي' keyword in plugin tab of intelliJ editor.
+
+- **Hello World** [Sample File اهلا.ي](https://github.com/yalang/examples/blob/master/اهلا.ي)
 ```python
 اطبع("اهلا و سهلا يا عالم")؛
 ```
@@ -26,26 +23,27 @@ Output:
 اهلا و سهلا يا عالم
 ```
 
-- **Condition** [لو.ي](https://github.com/yalang/examples/blob/master/لو.ي)
+- **Condition** [Sample File لو.ي](https://github.com/yalang/examples/blob/master/لو.ي)
 ```python
 ع = ٧
 لو ع ٪ ٢ == ٠:؛
     اطبع("ع الفردية")؛
 ولو ٧ == ٠:؛
     اطبع("هذا صفر")؛
-آخر:؛
+اخر:؛
     اطبع("ع الزوجية")؛
 ```
 Output:
 ```bash
 ع الزوجية
-``` 
+```
 
-- **Function** [وظيفة.ي](https://github.com/yalang/examples/blob/master/وظيفة.ي)
+- **Function** [Sample File وظيفة.ي](https://github.com/yalang/examples/blob/master/وظيفة.ي)
+
 ```python
 وظيفة جمع(اولا، ثاني):؛
     كل = اولا + ثاني؛
-    إرجع كل؛
+    ارجع كل؛
 
 اطبع("جمع = "، جمع(٢، ٣))؛
 ```
@@ -62,7 +60,7 @@ For more sample code see (https://github.com/yalang/examples)
 
 
 ## Prerequisites
-- macOS
+- Mac OS or Ubuntu
 - Python 3
 
 
@@ -77,8 +75,11 @@ cd ya
 ```bash
 ./install.sh
 ```
-- Add `export PATH=$HOME/ya/bin:$PATH` to `.bash_profile` or `.bashrc`
 
+- Or run Makefile:
+```bash
+make install
+```
 
 ## Running
 
@@ -100,7 +101,7 @@ cd ya
 ي اهلا
 ```
 
-- It will print
+- It will print 
 
 ```bash
 اهلا و سهلا يا عالم
